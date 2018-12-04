@@ -1,4 +1,4 @@
 #!/bin/bash
 
-c++ pso.cpp Particle.hpp -o pso
-./pso
+c++ pso_nparticle.cpp Particle.hpp -o swarm
+./swarm

@@ -29,7 +29,7 @@ float evalF(float x, float e)
 int main()
 {
 	// Set domain
-	float domain[2] = {-32, 115};
+	float domain[2] = {-3, 1};
 	// Set parameters
 	float parameters[3] = {0.7298, 1.49618, 1.49618};
 	float x = randint(domain[0],domain[1]);
